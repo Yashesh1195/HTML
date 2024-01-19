@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="YLOGO3.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Tables & Nested Lists</title>
+</head>
+<body>
+    <h1>Nested Table</h1>
+    <table border="2" style="border-color: green;">
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1
+                <table border="2" style="border-color: blue;">
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1</td>
+        </tr>
+    </table>
+<hr>
+<h1> Nested List</h1>
+    <ol type="I">
+        <li>List Item 1
+            <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Nested item 1.2</li>
+            </ol>
+        </li>
+        <li>List Item 2
+            <ol>
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2
+                    <Ul type="circle">
+                        <li>Nested item 2.2.1</li>
+                        <li>Nested item 2.2.2
+                            <ul type="square">
+                                <li>Nested item 2.2.2.1</li>
+                                <li>Nested item 2.2.2.1</li>
+                            </ul>
+                        </li>
+                        <li>Nested item 2.2.3</li>
+                    </Ul>
+                </li>
+            </ol>
+        </li>
+        <li>List Item 3
+            <ul>
+                <li>Nested item 3.1</li>
+                <li>Nested item 3.2</li>
+                <li>Nested item 3.3</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
