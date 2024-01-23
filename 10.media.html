@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="YLOGO1.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tag</title>
+</head>
+<body>
+
+    <!-- VIDEO TAG -->
+
+    <video controls height="600px" width="1000px" preload="auto" poster="i2.jpg"> 
+
+        <!-- (a) Controls:- It is must to write otherwise only front photo will only be shown and no audio/video will be played
+             & it specifies that video controls should be displayed (such as a play/pause button etc) -->
+        
+        <!-- (b) Mute Autoplay :- It will automatically start the audio/video when we open/reload the webpage -->
+        
+        <!-- (c) Loop :- It will play the audio/video in loop -->
+        
+        <!-- (d) Preload:- It specifies if and how we think the video should be loaded when the page loads
+        It has Three values:- (1)auto {The author thinks that the browser should load the entire video when the page loads}; 
+        (2)metadata {The author thinks that the browser should load only metadata when the page loads}; 
+        (3)none {The author thinks that the browser should NOT load the video when the page loads} -->
+
+        <!-- (e) Poster:- It specifies an image to be shown while the video is downloading, or until the user hits the play button.
+            If this is not included, the first frame of the video will be used instead -->
+        <source src="Lutt Phut Gaya Video.mp4">
+    </video>
+
+<!-- OR -->
+<video controls muted autoplay loop height="600px" width="1000px" preload="auto" poster="i2.jpg" src="Lutt Phut Gaya Video.mp4">
+
+</video>
+
+<!-- AUDIO TAG -->
+
+<audio controls muted autoplay loop preload="auto">
+
+    <!-- (a) Controls:- It is must to write otherwise only front photo will only be shown and no audio/video will be played
+             & it specifies that video controls should be displayed (such as a play/pause button etc) -->
+        
+        <!-- (b) Mute Autoplay :- It will automatically start the audio/video when we open/reload the webpage -->
+        
+        <!-- (c) Loop :- It will play the audio/video in loop -->
+        
+        <!-- (d) Preload:- It specifies if and how we think the video should be loaded when the page loads
+        It has Three values:- (1)auto {The author thinks that the browser should load the entire video when the page loads}; 
+        (2)metadata {The author thinks that the browser should load only metadata when the page loads}; 
+        (3)none {The author thinks that the browser should NOT load the video when the page loads} -->
+
+    <source src="Lutt Phut Gaya Song.mp3">
+</audio>
+
+<!-- OR -->
+
+<audio controls loop preload="auto" src="Lutt Phut Gaya Song.mp3"></audio>
+</body>
+</html>
