@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="YLOGO3.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pages</title>
+</head>
+<body style="background-color: lightskyblue;">
+    <form>
+        <center>
+            <table border="0" cellspacing="5" cellpadding="5" style="background-color: whitesmoke; border-radius: 5px;">
+                <tr>
+                    <td colspan="3"><b><u>Registration</u></b></td>
+                </tr>
+                <tr style="color: darkslategrey;">
+                    <td colspan="3"><b>Personal Details</b></td>
+                </tr>
+                <tr>
+                    <td><b>Full Name</b></td>
+                    <td><b>Date of Birth</b></td>
+                    <td><b>E-mail</b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="name" placeholder="Enter your name"></td>
+                    <td><input type="text" pattern="[1-31]{2}+/[01-12]{2}+/[2000-2024]{4}" name="birth date" placeholder="Enter birth date"></td>
+                    <td><input type="text" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,}" name="e-mail" placeholder="Enter your e-mail"></td>
+                </tr>
+                <tr>
+                    <td><b>Mobile Number</b></td>
+                    <td><b>Gender</b></td>
+                    <td><b>Occupation</b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" pattern="[0-9]{10}" name="mobile no." placeholder="Enter mobile number"></td>
+                    <td><input type="text" name="gender" placeholder="Enter your gender"></td>
+                    <td><input type="text" name="occupation" placeholder="Enter your occupation"></td>
+                </tr>
+                <tr style="color: darkslategrey;">
+                    <td colspan="3"><b>Identity Details</b></td>
+                </tr>
+                <tr>
+                    <td><b>ID Type</b></td>
+                    <td><b>ID Number</b></td>
+                    <td><b>Issue Authority</b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="id type" placeholder="Enter ID type"></td>
+                    <td><input type="text" name="id no." placeholder="Enter ID number"></td>
+                    <td><input type="text" name="issue authority" placeholder="Enter issue department"></td>
+                </tr>
+                <tr>
+                    <td><b>Issue Date</b></td>
+                    <td><b>Issue State</b></td>
+                    <td><b>Expiry Date</b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" pattern="[1-31]{2}+/[01-12]{2}+/[2000-2024]{4} name="issue date" placeholder="Enter ID issue date"></td>
+                    <td><input type="text" name="issue state" placeholder="Enter ID issue state"></td>
+                    <td><input type="text" pattern="[1-31]{2}+/[01-12]{2}+/[2000-2024]{4} name="expiry date" placeholder="Enter ID expiry date"></td>
+                </tr>
+                <tr>
+                    <td><button style="background-color: lightskyblue; border-radius: 3px; border: none; color: white;">Next&#8594;</button></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
