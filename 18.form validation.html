@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="YLOGO1.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <!-- 1. Placeholder:- The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
+            The short hint is displayed in the input field before the user enters a value.
+            The placeholder attribute works with the following input types: text, search, url, tel, email, and password. -->
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <!-- 2. Value:- The input value attribute specifies an initial value for an input field. -->
+        <label>Mobile No.</label>
+        <input type="text" value="(9876543210)">
+        <br>
+        <!-- 3. Disabled:- The input disabled attribute specifies that an input field should be disabled.
+            A disabled input field is unusable and un-clickable.
+            The value of a disabled input field will not be sent when submitting the form! -->
+        <label>E-mail</label>
+        <input type="text" disabled>
+        <br>
+        <!-- 4. Read Only:- The input readonly attribute specifies that an input field is read-only.
+            A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+            The value of a read-only input field will be sent when submitting the form! -->
+        <label></label>
+        <input type="text" value="abcd@gmail.com" readonly>
+        <br>
+        <!-- 5. Size:- The input readonly attribute specifies that an input field is read-only.
+            A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+            The value of a read-only input field will be sent when submitting the form! -->
+        <label>Address</label>
+        <input type="text" size="30">
+        <br>
+        <!-- 6. Minlength:- The input minlength attribute specifies the minimum number of characters allowed in an input field.
+            Note: When a minlength is set, the input field will not accept less than the specified number of characters. 
+            However, this attribute does not provide any feedback. 
+            So, if you want to alert the user, you must write JavaScript code. -->
+        <label>Password</label>
+        <input type="password" minlength="8">
+        <br>
+        <!-- 7. Maxlength:- The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+            Note: When a maxlength is set, the input field will not accept more than the specified number of characters.
+            However, this attribute does not provide any feedback.
+            So, if you want to alert the user, you must write JavaScript code. -->
+        <label>Password</label>
+        <input type="password" maxlength="8">
+        <br>
+        <!-- 8. Autofocus:- The input autofocus attribute specifies that an input field should automatically get focus when the page loads. -->
+        <label>Aadhar No.</label>
+        <input type="number" autofocus  maxlength="12">
+        <br>
+        <!-- 9. Step:- The input step attribute specifies the legal number intervals for an input field.
+            This attribute can be used together with the max and min attributes to create a range of legal values.
+            The step attribute works with the following input types: number, range, date, datetime-local, month, time and week. -->
+        <label>Points</label>
+        <input type="number" step="40">
+        <br>
+        <!-- 10. Min:- The input min and max attributes specify the minimum and maximum values for an input field.
+            The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+            Tip: Use the max and min attributes together to create a range of legal values.  -->
+        <label>Date</label>
+        <input type="date" min="2000-01-01"> 
+        <br>
+        <!-- 11. Max:- The input min and max attributes specify the minimum and maximum values for an input field.
+            The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+            Tip: Use the max and min attributes together to create a range of legal values.  -->
+        <label>Date</label>
+        <input type="date" max="2023-12-31">
+        <br>
+        <!-- 12. Required:- The input required attribute specifies that an input field must be filled out before submitting the form.
+            The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file. -->
+        <label>E-mail ID</label>
+        <input type="text" required pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,}">
+        <br>
+        <label></label>
+        <input type="submit">
+        <br>
+        <label></label>
+        <input type="reset">
+    </form>
+</body>
+</html>
+
+<!-- 1. Placeholder:- The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
+            The short hint is displayed in the input field before the user enters a value.
+            The placeholder attribute works with the following input types: text, search, url, tel, email, and password. -->
+
+<!-- 2. Value:- The input value attribute specifies an initial value for an input field. -->
+
+<!-- 3. Disabled:- The input disabled attribute specifies that an input field should be disabled.
+            A disabled input field is unusable and un-clickable.
+            The value of a disabled input field will not be sent when submitting the form! -->
+
+<!-- 4. Read Only:- The input readonly attribute specifies that an input field is read-only.
+            A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+            The value of a read-only input field will be sent when submitting the form! -->
+
+<!-- 5. Size:- The input readonly attribute specifies that an input field is read-only.
+            A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+            The value of a read-only input field will be sent when submitting the form! -->
+
+<!-- 6. Minlength:- The input minlength attribute specifies the minimum number of characters allowed in an input field.
+            Note: When a minlength is set, the input field will not accept less than the specified number of characters. 
+            However, this attribute does not provide any feedback. 
+            So, if you want to alert the user, you must write JavaScript code. -->
+
+<!-- 7. Maxlength:- The input maxlength attribute specifies the maximum number of characters allowed in an input field.
+            Note: When a maxlength is set, the input field will not accept more than the specified number of characters.
+            However, this attribute does not provide any feedback.
+            So, if you want to alert the user, you must write JavaScript code. -->
+
+<!-- 8. Autofocus:- The input autofocus attribute specifies that an input field should automatically get focus when the page loads. -->
+
+<!-- 9. Step:- The input step attribute specifies the legal number intervals for an input field.
+            This attribute can be used together with the max and min attributes to create a range of legal values.
+            The step attribute works with the following input types: number, range, date, datetime-local, month, time and week. -->
+
+<!-- 10. Min:- The input min and max attributes specify the minimum and maximum values for an input field.
+            The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+            Tip: Use the max and min attributes together to create a range of legal values.  -->
+
+<!-- 11. Max:- The input min and max attributes specify the minimum and maximum values for an input field.
+            The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.
+            Tip: Use the max and min attributes together to create a range of legal values.  -->
+
+<!-- 12. Required:- The input required attribute specifies that an input field must be filled out before submitting the form.
+            The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file. -->
+
